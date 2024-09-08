@@ -7,7 +7,7 @@ import time
 from datetime import datetime
 from win32com.client import Dispatch
 from sklearn.neighbors import KNeighborsClassifier
-from win32com.client import Dispatch
+
 def speak(str1):
     speak = Dispatch("SAPI.SpVoice")
     speak.Speak(str1)
