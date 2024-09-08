@@ -25,7 +25,7 @@ print('Shape of Faces matrix --> ', FACES.shape)
 knn = KNeighborsClassifier(n_neighbors=5)
 knn.fit(FACES, LABELS)
 
-imgBackground = cv2.imread("background.png")
+imgBackground = cv2.imread("background1.png")
 
 COL_NAMES = ['NAME', 'TIME']
 
